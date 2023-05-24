@@ -1,0 +1,4 @@
+print(type(up_data))
+up_data.to_csv('pred.csv', delimiter=',',index=False)
+			with open('pred.csv', 'r') as csv_file:
+				reader = csv.reader(csv_file)
